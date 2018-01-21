@@ -14,4 +14,8 @@ import { HomeComponent } from './home/home.component';
 export class AppComponent {
   title = 'app works!';
   name = 'Dinusha';
+  singer = {
+    name: "Dinu",
+    song: "Ballad"
+  }; 
 }

@@ -4,5 +4,22 @@
 </p>
 
 <!-- property binding into the view-->
+<p>property binding</p>
 <input [value]="myString" />
 <input [required]="myBoolean" />
+
+<!--event binding -->
+<p>Event binding</p>
+<button (click)="alertMe('I like beef')">Click me</button>
+
+<!--2way data binding -->
+<p>{{student.name}}</p>
+<p>{{student.subject}}</p>
+<label>Name:</label>
+<input [(ngModel)]="student.name"/>
+<label>Subject:</label>
+<input [(ngModel)]="student.subject"/>
+
+<!-- custom property binding -->
+<p>{{singer.name}}</p>
+<p>{{singer.song}}</p>
